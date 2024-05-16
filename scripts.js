@@ -67,6 +67,8 @@ function handleOverLay(selectorElement, overlayElement, boolean){
   );
 }
 
+// Event listeners
+
 function handleClickEvent(selectorElement, callback){
     document
   .querySelector(selectorElement)
@@ -78,7 +80,6 @@ function handleSubmitEvent(selectorElement, callback){
   .querySelector(selectorElement)
   .addEventListener('submit', callback);
 }
-// Event listeners
 
   handleSubmitEvent('[data-search-form]', handleSearch)
 
