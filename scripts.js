@@ -58,6 +58,7 @@ function handleListClick(event) {
   }
 }
 
+// Event listeners
 function handleOverLay(selectorElement, overlayElement, boolean){
     document
   .querySelector(selectorElement)
@@ -67,7 +68,6 @@ function handleOverLay(selectorElement, overlayElement, boolean){
   );
 }
 
-// Event listeners
 
 function handleClickEvent(selectorElement, callback){
     document
