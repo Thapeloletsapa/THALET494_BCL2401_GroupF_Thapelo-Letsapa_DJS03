@@ -72,17 +72,19 @@ function handleClickEvent(selectorElement, callback){
   .querySelector(selectorElement)
   .addEventListener('click', callback);
 }
-// Event listeners
-document
-  .querySelector('[data-search-form]')
-  .addEventListener('submit', handleSearch);
-document
-  .querySelector('[data-settings-form]')
-  .addEventListener('submit', handleSettingsSubmit);
 
-document
-  .querySelector('[data-list-items]')
-  .addEventListener('click', handleListClick);
+function handleSubmitEvent(selectorElement, callback){
+    document
+  .querySelector(selectorElement)
+  .addEventListener('submit', callback);
+}
+// Event listeners
+
+  handleSubmitEvent('[data-search-form]', handleSearch)
+
+  handleSubmitEvent('[data-settings-form]', handleSettingsSubmit)
+
+  handleClickEvent('[data-list-items]',  handleListClick)
 
   handleOverLay('[data-search-cancel]', '[data-search-overlay]',false)
  
