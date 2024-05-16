@@ -23,14 +23,9 @@ This is a book list app that allows users to search and filter books by various 
 
 **Note**: To use the book list app, initialize the theme and book list modules.
 
+### Configuration
 
-//- : The rationale behind the refactoring decisions made, including the choice of objects and functions.
--// How abstraction has made the code more maintainable and extendable.
-//- Any challenges faced during the refactoring process and how they were overcome.
-//- Reflections on how this exercise has deepened your understanding of JavaScript programming concepts.
+**Note**: The book list app uses various data structures and functions to manage the book data. You can customize the book data by modifying the bookList and authors objects in the bookList.js and data.js files, respectively.
 
-#### Submission Guidelines
 
-Submit the refactored version of the "Book Connect" application, including all HTML, CSS, and JavaScript files. Ensure that your code is well-documented and adheres to the specified Styleguides. Include a written report covering the discussion and reflection points outlined above.
 
-Make sure to submit your project to the LMS on the DJS03 Project Tab.
